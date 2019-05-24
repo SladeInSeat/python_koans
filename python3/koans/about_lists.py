@@ -59,7 +59,7 @@ class AboutLists(Koan):
 
     def test_ranges_with_steps(self):
         self.assertEqual([4,5], list(range(5, 3, -1)))
-        self.assertEqual(0,2,4,6] list(range(0, 8, 2)))
+        self.assertEqual([0,2,4,6], list(range(0, 8, 2)))
         self.assertEqual([1,4,7], list(range(1, 8, 3)))
         self.assertEqual([5,1,-3], list(range(5, -7, -4)))
         self.assertEqual([5,1,-3,-7], list(range(5, -8, -4)))
